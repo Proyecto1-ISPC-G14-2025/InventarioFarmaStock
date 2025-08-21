@@ -59,3 +59,13 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 <br/>
 * Ivo Konstantinow - Usuario Github: konstantinowivo - Desarrollador
 <br/>
+
+
+## :pushpin: Link Organizacion y Repositorio Segundo Cuatrimestre 2025
+<br/>
+
+:radio_button: [Organizacion](https://github.com/Proyecto1-ISPC-G14-2025) 
+<br/>
+
+:radio_button: [Repositorio del proyecto](https://github.com/Proyecto1-ISPC-G14-2025/Proyecto1-ISPC-G14-V1) 
+<br/>
