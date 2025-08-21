@@ -67,5 +67,5 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 :radio_button: [Organizacion](https://github.com/Proyecto1-ISPC-G14-2025) 
 <br/>
 
-:radio_button: [Repositorio del proyecto]([https://github.com/Proyecto1-ISPC-G14-2025/Proyecto1-ISPC-G14-V1](https://github.com/Proyecto1-ISPC-G14-2025/InventarioFarmaStock/)) 
+:radio_button: [Repositorio del proyecto](https://github.com/Proyecto1-ISPC-G14-2025/InventarioFarmaStock/)
 <br/>
