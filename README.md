@@ -34,7 +34,6 @@ Backend: Python (Flask/Django)
 
 Base de datos: MySQL
 
-Otros: SQLAlchemy o Django ORM para interacción con la base de datos, bibliotecas para generación de reportes PDF/Excel.
 
 ### :pushpin: Instalación y configuración 
 
