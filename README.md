@@ -1,7 +1,7 @@
 # :pill: InventarioFarmaStock
 Administrador web de Inventarios para medicamentos.
 
-Descripción
+## :pushpin: Descripción
 Este proyecto es un Administrador Web de Inventarios para Medicamentos, diseñado para facilitar la gestión eficiente y segura del stock en farmacias o centros de salud. La aplicación permite controlar entradas, salidas, fechas de expiración, y reportes detallados del inventario de medicamentos.
 
 La solución implementa un enfoque moderno y escalable con tecnologías web ampliamente utilizadas:
@@ -12,7 +12,7 @@ Backend: Está desarrollado en Python (por ejemplo, con frameworks como Flask o 
 
 Base de datos: Se usa MySQL como gestor relacional para almacenar de forma estructurada toda la información del inventario, usuarios, transacciones y configuraciones. Permite consultas eficientes y seguras para ordenar, filtrar y reportar datos.
 
-Características principales
+### :pushpin: Características principales
 Gestión completa de medicamentos: agregar, editar, eliminar y actualizar stock.
 
 Control de fechas de expiración con alertas para medicamentos próximos a vencer.
@@ -27,7 +27,7 @@ Reportes exportables para auditorías y análisis.
 
 Interfaz responsive adaptable a múltiples dispositivos gracias a Bootstrap.
 
-Tecnologías
+### :pushpin: Tecnologías
 Frontend: HTML5, CSS3, JavaScript, Bootstrap 5
 
 Backend: Python (Flask/Django)
@@ -36,7 +36,8 @@ Base de datos: MySQL
 
 Otros: SQLAlchemy o Django ORM para interacción con la base de datos, bibliotecas para generación de reportes PDF/Excel.
 
-Instalación y configuración (resumen)
+### :pushpin: Instalación y configuración 
+
 Clona el repositorio.
 
 Configura el entorno virtual Python e instala dependencias con pip.
@@ -56,8 +57,6 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 * Juan Ignacio Alonso - Usuario Github: juanignacioalonso - Desarrollador
 <br/>
 * Cesar Ramiro Ruggieri - Usuario Github: subrami22 - Desarrollador
-<br/>
-* Ivan Massimino - Usuario Github: IvanMass99 - Desarrollador
 <br/>
 * Ivo Konstantinow - Usuario Github: konstantinowivo - Desarrollador
 <br/>
