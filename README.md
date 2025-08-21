@@ -61,11 +61,11 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 <br/>
 
 
-## :pushpin: Link Organizacion y Repositorio Segundo Cuatrimestre 2025
+## :pushpin: Link Organizacion y Repositorio Segundo Cuatrimestre 2025 para Modulo Fullstack 
 <br/>
 
 :radio_button: [Organizacion](https://github.com/Proyecto1-ISPC-G14-2025) 
 <br/>
 
-:radio_button: [Repositorio del proyecto](https://github.com/Proyecto1-ISPC-G14-2025/Proyecto1-ISPC-G14-V1) 
+:radio_button: [Repositorio del proyecto]([https://github.com/Proyecto1-ISPC-G14-2025/Proyecto1-ISPC-G14-V1](https://github.com/Proyecto1-ISPC-G14-2025/InventarioFarmaStock/)) 
 <br/>
