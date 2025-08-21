@@ -46,3 +46,18 @@ Configura la base de datos MySQL y variables de entorno para conexión.
 Ejecuta migraciones para crear tablas.
 
 Inicia el servidor backend y abre la aplicación desde el navegador.
+
+
+
+## :muscle: Integrantes
+<br/>
+* Nicolas Elias Calmucci - Usuario Github: Eleven1433 / Scrum master - Desarrollador
+<br/>
+* Juan Ignacio Alonso - Usuario Github: juanignacioalonso - Desarrollador
+<br/>
+* Cesar Ramiro Ruggieri - Usuario Github: subrami22 - Desarrollador
+<br/>
+* Ivan Massimino - Usuario Github: IvanMass99 - Desarrollador
+<br/>
+* Ivo Konstantinow - Usuario Github: konstantinowivo - Desarrollador
+<br/>
