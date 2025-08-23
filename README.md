@@ -57,8 +57,6 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 <br/>
 * Cesar Ramiro Ruggieri - Usuario Github: subrami22 - Desarrollador
 <br/>
-* Ivo Konstantinow - Usuario Github: konstantinowivo - Desarrollador
-<br/>
 
 
 ## :pushpin: Link Organizacion y Repositorio Segundo Cuatrimestre 2025 para Modulo Fullstack 
