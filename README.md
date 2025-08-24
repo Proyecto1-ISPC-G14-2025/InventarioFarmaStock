@@ -30,7 +30,7 @@ Interfaz responsive adaptable a múltiples dispositivos gracias a Bootstrap.
 ### :pushpin: Tecnologías
 Frontend: HTML5, CSS3, JavaScript, Bootstrap 5
 
-Backend: Python (Flask/Django)
+Backend: Python 
 
 Base de datos: MySQL
 
