@@ -55,7 +55,7 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 <br/>
 * Juan Ignacio Alonso Flieller - Usuario Github: juanignacioalonso - Desarrollador
 <br/>
-* Cesar Ramiro Ruggieri - Usuario Github: subrami22 - Desarrollador
+* Cesar Ramiro Ruggieri  - Usuario Github: subrami22 - Desarrollador
 <br/>
 
 
