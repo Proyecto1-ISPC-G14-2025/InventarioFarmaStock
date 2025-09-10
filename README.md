@@ -53,7 +53,7 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 <br/>
 * Nicolas Elias Calmucci - Usuario Github: Eleven1433 / Scrum master - Desarrollador
 <br/>
-* Juan Ignacio Alonso - Usuario Github: juanignacioalonso - Desarrollador
+* Juan Ignacio Alonso Flieller - Usuario Github: juanignacioalonso - Desarrollador
 <br/>
 * Cesar Ramiro Ruggieri - Usuario Github: subrami22 - Desarrollador
 <br/>
