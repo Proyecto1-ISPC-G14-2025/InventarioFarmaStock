@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Inventario Farmacia FarmaStock</title>
+  <link rel="icon" href="favicon\medicamento.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body, html {
+      height: 100%;
+      background-color: #f8f9fa;
+    }
+    .login-container {
+      min-height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+      padding: 30px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menú -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Inventario Farmacia FarmaStock</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+           <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+           <li class="nav-item"><a class="nav-link" href="#">Cambio de clave de usuario</a></li>
+           <li class="nav-item"><a class="nav-link" href="#">Ayuda</a></li>
+  <!-- Menú   <li class="nav-item"><a class="nav-link" href="#">Medicamentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Proveedores</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Reportes</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login -->
+  <div class="login-container">
+    <div class="login-card">
+      <h3 class="text-center mb-4">Ingreso al Sistema</h3>
+      <form action="/login" method="POST" novalidate>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="usuario@correo.com" required />
+          <div class="invalid-feedback">Por favor ingresa un correo electrónico válido.</div>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required />
+          <div class="invalid-feedback">Por favor ingresa tu contraseña.</div>
+        </div>
+        <div class="d-grid mb-3">
+        <label for="role" class="form-label">Rol</label>
+        <select id="role" class="form-select">
+        <option value="user">Usuario</option>
+        <option value="admin">Administrador</option>
+        </select>
+
+        <div class="d-grid mb-3">
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+      const role = document.getElementById('role').value;
+
+      if (role === 'admin') {
+        window.location.href = 'admin.html';  // Redirige a página de administrador
+      } else {
+        window.location.href = 'usuario.html';   // Redirige a página de usuario común
+      }
+    });
+  </script>
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Bootstrap 5 custom validation
+    (() => {
+      'use strict'
+      const forms = document.querySelectorAll('form')
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+          form.classList.add('was-validated')
+        }, false)
+      })
+    })()
+  </script>
+
+  
+</body>
+</html>
