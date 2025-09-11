@@ -2,6 +2,7 @@
 # Clase Usuario con registro, login, edición datos personales
 #usuarios de prueba admin /admin123 y hellraiser/hell22
 
+
 from db import Database
 import hashlib
 

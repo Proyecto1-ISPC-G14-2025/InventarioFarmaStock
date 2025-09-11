@@ -11,6 +11,7 @@ class Database:
             user='root',
             password='',
             database='mi_sistema_usuarios'
+
         )
         self.cursor = self.conn.cursor(dictionary=True, buffered=True)
     
