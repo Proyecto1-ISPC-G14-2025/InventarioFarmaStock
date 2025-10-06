@@ -149,13 +149,13 @@
       <form id="loginForm" novalidate>
         <div class="mb-3">
           <label for="email" class="form-label">Correo Electrónico</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="usuario@correo.com" required />
+          <input type="email" class="form-control" id="email" name="email" placeholder="usuario@correo.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required />
           <div class="invalid-feedback">Por favor ingresa un correo electrónico válido.</div>
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required />
-          <div class="invalid-feedback">Por favor ingresa tu contraseña.</div>
+          <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" minlength="8" required />
+          <div class="invalid-feedback">La contraseña debe tener al menos 8 caracteres.</div>
         </div>
         <div class="d-grid mb-3">
         <label for="role" class="form-label">Rol</label>
