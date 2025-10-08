@@ -39,7 +39,7 @@ Base de datos: MySQL
 
 Clona el repositorio.
 
-Configura el entorno virtual Python e instala dependencias con pip.
+Configura el entorno virtual Python e instala dependencias con pip. (pip install mysql-connector-python para conexion a la base de datos)
 
 Configura la base de datos MySQL y variables de entorno para conexión.
 
@@ -53,9 +53,9 @@ Inicia el servidor backend y abre la aplicación desde el navegador.
 <br/>
 * Nicolas Elias Calmucci - Usuario Github: Eleven1433 / Scrum master - Desarrollador
 <br/>
-* Juan Ignacio Alonso - Usuario Github: juanignacioalonso - Desarrollador
+* Juan Ignacio Alonso Flieller - Usuario Github: juanignacioalonso - Desarrollador
 <br/>
-* Cesar Ramiro Ruggieri - Usuario Github: subrami22 - Desarrollador
+* Cesar Ramiro Ruggieri  - Usuario Github: subrami22 - Desarrollador
 <br/>
 
 
