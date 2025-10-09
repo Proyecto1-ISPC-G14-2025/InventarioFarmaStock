@@ -443,31 +443,31 @@
       <h2 class="mb-4 text-center">Contacto</h2>
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <form class="needs-validation" novalidate>
+          <form class="needs-validation" novalidate action="https://formspree.io/f/xyzndjjy" method="POST">
             <div class="mb-3">
               <label for="nombreContacto" class="form-label">Nombre *</label>
-              <input type="text" class="form-control" id="nombreContacto" placeholder="Tu nombre" required minlength="3">
+              <input type="text" name="nombre" class="form-control" id="nombreContacto" placeholder="Tu nombre" required minlength="3">
               <div class="invalid-feedback">
                 Por favor ingresa tu nombre (mínimo 3 caracteres).
               </div>
             </div>
             <div class="mb-3">
               <label for="emailContacto" class="form-label">Correo Electrónico *</label>
-              <input type="email" class="form-control" id="emailContacto" placeholder="Tu email" required>
+              <input type="email" name="email" class="form-control" id="emailContacto" placeholder="Tu email" required>
               <div class="invalid-feedback">
                 Por favor ingresa un email válido.
               </div>
             </div>
             <div class="mb-3">
               <label for="telefonoContacto" class="form-label">Teléfono</label>
-              <input type="tel" class="form-control" id="telefonoContacto" placeholder="Tu teléfono" pattern="[0-9]{9,15}">
+              <input type="tel" name="telefono" class="form-control" id="telefonoContacto" placeholder="Tu teléfono" pattern="[0-9]{9,15}">
               <div class="invalid-feedback">
                 Por favor ingresa un número de teléfono válido (9-15 dígitos).
               </div>
             </div>
             <div class="mb-3">
               <label for="mensajeContacto" class="form-label">Mensaje *</label>
-              <textarea class="form-control" id="mensajeContacto" rows="4" placeholder="Escribe tu mensaje" required minlength="10" maxlength="500"></textarea>
+              <textarea name="mensaje" class="form-control" id="mensajeContacto" rows="4" placeholder="Escribe tu mensaje" required minlength="10" maxlength="500"></textarea>
               <div class="invalid-feedback">
                 Por favor ingresa un mensaje (10-500 caracteres).
               </div>
